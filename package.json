@@ -1,0 +1,58 @@
+{
+  "name": "@leftbin/portal-base",
+  "version": "1.0.0",
+  "description": "component library for portal",
+  "scripts": {
+    "rollup": "rm -rf dist && rollup -c --bundleConfigAsCjs"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leftbin/portal-base.git"
+  },
+  "author": "leftbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leftbin/portal-base/issues"
+  },
+  "homepage": "https://github.com/leftbin/portal-base#readme",
+  "peerDependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/styles": "^5.11.13",
+    "classnames": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/styles": "^5.11.13",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.32",
+    "classnames": "^2.3.2",
+    "postcss": "^8.4.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.60.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.3"
+  }
+}
